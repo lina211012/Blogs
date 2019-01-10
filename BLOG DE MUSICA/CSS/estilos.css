@@ -1,0 +1,160 @@
+body{
+  background: linear-gradient( #81FFEA, #42B8A4, #084F49);
+
+}
+
+.blog-body{
+  padding: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+}
+
+p{
+  font-size: 1.2em;
+  color: #000;
+}
+
+h3{
+  color: #000;
+}
+
+
+header{
+  background-color: #EBEBEB;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.logo-principal img{
+  width: 30%;
+  margin-left: 15%;
+  margin-top: 20px;
+
+}
+
+.redes-sociales{
+  margin-top: 140px;
+}
+
+.redes-sociales img{
+  width: 15%;
+  float:right;
+  margin-right: 10px;
+  }
+
+ul li a{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  background-color: #101311;
+  height: 10%;
+  margin-top: 20px;
+  border: 1px #fff dashed;
+
+}
+
+ul.nav.nav-pills li a:hover{
+  background-color: #89C1B9;
+  color: #000;
+
+}
+
+div .article{
+  margin-top:20px;
+  padding-top: 0px;
+  background-color: #EBEBEB;
+  border-radius: 0px 0px 20px 20px;
+  height: 100%;
+}
+
+div .art1{
+  width:100%;
+  height:100%;
+  padding: 5px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.comentarios{
+  margin-top: 5px;
+  padding: 20px;;
+  font-size: 18px;
+  background: linear-gradient( #A4F7FF, #3CEBFC, #00E0F5);
+  border-radius: 10px 10px 10px 10px;
+}
+
+div textarea{
+  border: 1px solid #000;
+  width:100%;
+  height:100%;
+  border-radius: 5px;
+}
+
+.img-comen{
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+div.buscador{
+  margin-top: 20px;
+  padding-top: 5px;
+  height: 100%;
+  font-size: 1.2em;
+}
+
+.btn,
+.btn-mio:hover {
+  color: black;
+  font-size: 14px;
+  background-color: #ccC;
+}
+
+.list-group-item{
+  background: #E6D4F7;
+  }
+
+.list-group-item a:hover{
+    color:#000;
+}
+
+  @media (max-width: 750px ){
+
+    ul li a{
+    font-size: 1.2em;
+    margin: 8px 0px;
+
+  }
+
+    .col-xs-3 img{
+      width: 75%;
+      margin: 10%;
+    }
+
+    .col-xs-9{
+      height: 80%;
+    }
+
+    .logo-principal img{
+      width: 100%;
+      padding: 0px;
+        }
+
+    p, h3, .comentarios{
+      font-size: 1.1em;
+    }
+
+    .redes-sociales img{
+      width: 25%;
+    }
+
+    div .art1{
+      width: 100%;
+      height: 70%;
+    }
+
+}

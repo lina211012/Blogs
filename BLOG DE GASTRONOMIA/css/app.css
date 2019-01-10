@@ -1,0 +1,167 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-attachment:fixed;
+  width: 100%;
+  height: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+div h1,h2,h3,h4,h5{
+    font-family: 'Happy Monkey', cursive;
+}
+
+
+.body-blog{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgba(236, 183, 255,0.3);
+    align:center;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.header{
+  background-color: #F3D1FF;
+  width: 100%;
+  padding-left: 4%;
+  border-radius: 25px;
+}
+
+.header .slogan h5{
+  margin-top: 1.5%;
+  font-size: 20px;
+  padding-right: 7%;
+}
+
+.container{
+  margin-top: 2%;
+  border-radius: 20px;
+  background-color: #F3D1FF;
+  padding: 2%;
+}
+
+.menu{
+  padding: 7px;
+  margin-top: 4px;
+}
+
+.menu li a{
+  color: #000;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.menu li a:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+
+.favorito{
+  margin-top: 5%;
+  padding: 4px;
+}
+
+.favorito img{
+  margin-top: 10%;
+}
+
+.historial{
+  margin-top: 5%;
+  padding: 4px;
+}
+
+.historial ul li{
+  list-style: none;
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+.historial ul li a{
+  color: #000;
+  font-size: 15px;
+  }
+
+.historial ul li a:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+
+.container2{
+  margin-top: 2%;
+  border-radius: 20px;
+  background-color: #F3D1FF;
+  padding: 2%;
+}
+
+
+.contenido{
+padding: 10px;
+font-size: 15px;
+}
+
+.contenido h1{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.contenido h6{
+  font-size: 12px;
+}
+.contenido img{
+  padding: 2%;
+  padding-bottom: 4%;
+}
+
+
+.comentarios{
+background-color: rgba(255, 254, 254, 0.3);
+padding-top: 2%;
+border: 1px solid #FE80FD;
+padding: 10px;
+}
+
+.comentarios a{
+margin-left: 80%;
+}
+
+textarea{
+  border: solid 1px #afafaf;
+}
+
+.comentarios div{
+  margin-top: 2%;
+  font-size: 13px;
+}
+
+.comentarios img{
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:899px) {
+  .navigation1{
+    display: none;
+  }
+
+  .contenido h1{
+    font-size: 25px;
+  }
+
+  .contenido h6{
+    font-size: 10px;
+  }
+
+  .contenido, .comentarios p{
+    font-size: 12px;
+  }
+
+  .comentarios a{
+    margin-left: 70%;
+    padding: 5%;
+  }
+}
