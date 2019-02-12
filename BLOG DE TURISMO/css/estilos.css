@@ -1,0 +1,63 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-attachment:fixed;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Acme', sans-serif;
+}
+
+.container{
+  width: 80%;
+}
+
+header{
+  padding: 2%;
+}
+
+h2{
+  font-size: 1.8em;
+  margin-right: 5%;
+  margin-top: 10%;
+  font-weight: bold;
+  font-family: 'Acme', sans-serif;
+}
+
+.galeria img{
+  padding: 1%;
+  margin-left: 5%;
+}
+
+.articulos{
+  margin-bottom: 5%;
+  height: auto;
+}
+
+.articulos p,img{
+  padding: 4%;
+}
+
+.articulos h1{
+  font-size: 2em;
+}
+
+.chip i{
+  padding:5px;
+}
+
+.comentario h4{
+  font-size: 1.5em;
+}
+
+.comentario button{
+ margin-bottom:2%;
+}
+
+.perfil h1{
+  font-size: 2em;
+}
+
+.perfil img{
+  padding: 10%;
+  padding-bottom: 0px;
+}
